@@ -7,7 +7,7 @@ struct MyProcessInfo {
     HANDLE PID;
     WCHAR processName[256];
 };
-const char* MyDLL64 = "Hooker64.dll";
+const char* MyDLL64 = "Hook64.dll";
 
 
 int WhatTheHook64(HANDLE hCurrentProc) {

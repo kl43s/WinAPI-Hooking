@@ -7,7 +7,7 @@ struct MyProcessInfo {
     HANDLE PID;
     WCHAR processName[256];
 };
-const char* MyDLL32 = "Hooker32.dll";
+const char* MyDLL32 = "Hook32.dll";
 
 int WhatTheHook32(HANDLE hCurrentProc) {
     LPVOID pRemoteAddr = VirtualAllocEx(
